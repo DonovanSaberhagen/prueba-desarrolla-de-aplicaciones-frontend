@@ -53,23 +53,25 @@ al dar clic sobre el botón del componente Child, se envíe algún texto.
 
 ## Pasos
 
-1. Almacenamos datos recibidos de Firestore en un objeto data
+1. Manejamos el estado con Vuex En este ejercicio debemos configurar Vuex
+para gestionar el estado de un contador
 
-![Imagen](./src/assets/data.png)
+![Imagen](./src/assets/contador.png)
+
+2. creamos la aplicación con Vue Router
+mediante CLI y validamos mediante pruebas unitarias la existencia de componentes que
+controlen cada una de las vistas
+
+![Imagen](./src/assets/validacion%20router.png)
+
+3. el componente Child va a tener un campo de ingreso de texto y
+un botón. Al dar clic en el botón el texto del input será enviado al Parent y este mostrará
+en pantalla el resultado
+
+![Imagen](./src/assets/resultado%20texto.png)
 
 
-2. Creamos un componente que agregue nuevos usuarios a la base de datos
-
-
-3. Creamos un componente que muestre todos los usuarios registrados.
-
-
-4. Permitimos a los usuarios de la aplicación eliminar los registros de la base de datos con el siguiente codigo.
-
-![Imagen](./src/assets/delete.png)
-
-
-
+4. Por último, generamos el build de producción y lo súbimos utilizando Firebase Hosting
 
 
 
@@ -78,4 +80,4 @@ al dar clic sobre el botón del componente Child, se envíe algún texto.
 
 ## Resultado
 
-![Imagen](./src/assets/final-firebase.png)
+![Imagen](./src/assets/resultado%20final.png)
